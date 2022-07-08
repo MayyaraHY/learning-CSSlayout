@@ -1,0 +1,304 @@
+*{
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.colorGreen{
+    color: #00b39b;
+}
+header nav img{
+    width: 260px;
+    height: 33px;
+}
+header nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+header nav ul li {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+header nav ul li:hover{
+    color: #00b39b;
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+}
+h1{
+    color: #00b39b;
+    font: Helvetica;
+    font-weight: 300;
+}
+main .des{
+    display: flex;
+    justify-content: center;
+}
+main .des .dep{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 500;
+    margin-left: 40px;
+}
+main .target{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+main .target .parg{
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+}
+main .target .pat{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #00b39b;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+main .target .pat select{
+    border: 0px;
+    outline: 0px;
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+    margin-top: 30px;
+    background-color: #00b39b;
+}
+main .target img{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.doc{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: lightblue;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+main .target .doc select{
+    border: 0px;
+    outline: 0px;
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+    margin-top: 30px;
+    background-color: lightblue;
+}
+.cli{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #747474;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+main .target .cli .sel1{
+    border: 0px;
+    outline: 0px;
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #747474;
+    ;
+}
+main .target .cli .sel2{
+    border: 0px;
+    outline: 0px;
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+    margin-top: 0px;
+    background-color: #747474;
+}
+main .target h3{
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+main .target select{
+    margin-top: 50px;
+    width: 80%;
+    margin: 20 auto;
+}
+main .target .pat:hover{
+    cursor: default;
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+main .target .doc:hover{
+    cursor: default;
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+main .target .cli:hover{
+    cursor: default;
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+main .target select:hover{
+    cursor: pointer;
+}
+.names{
+display: flex;
+width: 80%;
+margin: 0 auto;
+}
+.names h2{
+    color: #00b39b;
+}
+.names ul{
+    display: flex;
+    max-width: 450px;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+.names ul li:hover{
+    cursor: pointer;
+    color: #00b39b;
+}
+.platform{
+    display: flex;
+    background-color: rgb(183, 226, 240);
+    border-radius: 5%;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.platform h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 20px 20px;
+}
+.platform .des2{
+    text-align: center;
+    padding: 10px 10px;
+    margin: 5px 20px 40px 20px;
+}
+.aux{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 30px;
+}
+.aux .places{
+    background-color: white;
+    border-radius: 5%;
+    margin: 20px 40px;
+    width: 270px;
+    height: 350px;
+}
+.aux img{
+    margin: 24px 24px;
+}
+.aux h2{
+    text-align: center;
+    margin: 10px 20px 40px 20px;
+}
+.aux p{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.aux .appointment{
+    background-color: white;
+    border-radius: 5%;
+    margin: 20px 40px;
+    width: 270px;
+    height: 350px;
+}
+.aux .doct{
+    background-color: white;
+    border-radius: 5%;
+    margin: 20px 40px;
+    width: 270px;
+    height: 350px;
+}
+.aux .pati{
+    background-color: white;
+    border-radius: 5%;
+    margin: 20px 40px;
+    width: 270px;
+    height: 350px;
+}
+
+.des11 h1{
+    text-align: center;
+    width: 33%;
+    margin: 40px auto;
+}
+.des11 p{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto 50px auto;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 30px auto;
+}
+.cards .ca{
+    border-radius: 5%;
+    margin: 20px 20px;
+}
+.cards .ca img{
+    border-radius: 5%;
+}
+.cards .ca .cb{
+    display: flex;
+    width: 80%;
+    margin: 5px auto;
+    justify-content: space-between;
+}
+.cards .ca .cb button{
+    background-color: rgba(55, 55, 236, 0.922);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10%;
+    height: 35px;
+    margin: 10px 30px 10px 10px;
+    border-color: white;
+}
+.cards .ca .cb button:hover{
+    cursor: pointer;
+    background-color: rgba(79, 79, 241, 0.922);
+}
+
+footer{
+    width: 80%;
+    margin: 60px auto 5px auto;
+    text-align: center;
+}
